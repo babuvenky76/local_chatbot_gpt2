@@ -50,13 +50,19 @@ This project is a chatbot using Streamlit and a fine-tuned GPT-2 model.
     pyenv activate gpt2_chatbot
     ```
 
-5. **Install dependencies**:
+5. **Download and save the pre-trained GPT-2 model and tokenizer locally**:
+
+    ```sh
+    python download_model.py
+    ```
+
+6. **Install dependencies**:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-6. **Run the Streamlit app**:
+7. **Run the Streamlit app**:
 
     ```bash
     streamlit run /path/to/your/chatbot.py
@@ -64,11 +70,11 @@ This project is a chatbot using Streamlit and a fine-tuned GPT-2 model.
 
 ## File Structure
 
-- [chatbot.py](http://_vscodecontentref_/1): The main script for the chatbot.
+- `chatbot.py`: The main script for the chatbot.
 - `requirements.txt`: The dependencies required for the project.
 - `README.md`: This file with setup instructions.
 
 ## Notes
 
-- Ensure that the path to the fine-tuned model in [chatbot.py](http://_vscodecontentref_/2) is correct.
+- Ensure that the path to the fine-tuned model in `chatbot.py` is correct.
 - If you encounter any issues, please refer to the official documentation of the respective libraries.
